@@ -170,7 +170,7 @@ if __name__ == "__main__":
     argument = args()
 
     if len(argument) == 0:
-        print("Please enter any command")
+        print("Please enter any command! Use 'task-cli help' for the commands")
         exit()
 
     command = argument[0]
